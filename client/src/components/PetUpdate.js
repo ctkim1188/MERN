@@ -6,9 +6,9 @@ const PetUpdate = props => {
     const id = props.id;
     const [pet, setPet] = useState({});
     const [errors, setErrors] = useState([]);
-    const [name, setName] = useState();
-    const [type, setType] = useState();
-    const [description, setDescription] = useState();
+    const [name, setName] = useState("");
+    const [type, setType] = useState("");
+    const [description, setDescription] = useState("");
     const [skillOne, setSkills1] = useState();
     const [skillTwo, setSkills2] = useState();
     const [skillThree, setSkills3] = useState();
